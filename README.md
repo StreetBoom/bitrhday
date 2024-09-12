@@ -94,6 +94,29 @@ cd <имя папки проекта></code></pre>
   </li>
 </ol>
 
+## Пример .env файла
+
+<pre><code>APP_NAME="Notification Script"
+APP_NAME=Birthday
+APP_ENV=local
+APP_KEY=base64:CvvZjXkTu0QMtclRuw8qv5/ST3MaZ20QknK0rqTnD2g=
+APP_DEBUG=true
+APP_TIMEZONE=UTC
+APP_URL=http://localhost
+
+MAIL_MAILER=smtp
+MAIL_HOST=sandbox.smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=3cee165e7ddffc
+MAIL_PASSWORD=2b0e9427670dce
+MAIL_ENCRYPTION=null
+MAIL_FROM_ADDRESS="userBurthday@example.com"
+MAIL_FROM_NAME="${APP_NAME}"
+
+GOOGLE_SPREADSHEET_ID=1sUYKWLWFSBAvXrsSPoF5bwO7KiFKWQ5w2R1vNBvIn8A
+GOOGLE_CREDENTIALS_PATH=storage/credentials/google_sheets.json
+GOOGLE_SHEET_NAME=Users
+
 ## Контейнеризация
 
 <p>Проект настроен для работы с Docker. Для запуска используйте:</p>
