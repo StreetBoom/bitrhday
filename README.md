@@ -99,25 +99,6 @@ cd <имя папки проекта></code></pre>
 <p>Проект настроен для работы с Docker. Для запуска используйте:</p>
 <pre><code>docker-compose up --build -d</code></pre>
 
-## Пример .env файла
-
-<pre><code>APP_NAME="Notification Script"
-APP_ENV=local
-APP_KEY=base64:...
-APP_DEBUG=true
-APP_URL=http://localhost
-
-GOOGLE_SHEET_URL="https://docs.google.com/spreadsheets/d/..."
-NOTIFICATION_EMAIL="your-email@example.com"
-
-MAIL_MAILER=smtp
-MAIL_HOST=smtp.mailtrap.io
-MAIL_PORT=2525
-MAIL_USERNAME=null
-MAIL_PASSWORD=null
-MAIL_ENCRYPTION=null
-MAIL_FROM_ADDRESS="hello@example.com"
-MAIL_FROM_NAME="${APP_NAME}"</code></pre>
 
 ## Документация
 
