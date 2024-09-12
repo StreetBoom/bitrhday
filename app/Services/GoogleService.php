@@ -23,7 +23,12 @@ class GoogleService
         return $client;
     }
 
-    public function checkBirthdays($fullName, $birthday): void
+    /**
+     * @param string $fullName
+     * @param string $birthday
+     * @return void
+     */
+    public function checkBirthdays(string $fullName, string $birthday): void
     {
         $today = date('d.m');
         $birthdayDate = date('d.m', strtotime($birthday));
@@ -44,7 +49,12 @@ class GoogleService
         sleep(1);
     }
 
-    public function checkLastContact($fullName, $lastContact): void
+    /**
+     * @param string $fullName
+     * @param string $lastContact
+     * @return void
+     */
+    public function checkLastContact(string $fullName, string $lastContact): void
     {
         $lastContactDate = date('d-m-Y', strtotime($lastContact));
         $twoWeeksAgo = date('d-m-Y', strtotime('-14 days'));
