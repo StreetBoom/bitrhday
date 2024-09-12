@@ -115,7 +115,7 @@ MAIL_FROM_NAME="${APP_NAME}"
 
 GOOGLE_SPREADSHEET_ID=1sUYKWLWFSBAvXrsSPoF5bwO7KiFKWQ5w2R1vNBvIn8A
 GOOGLE_CREDENTIALS_PATH=storage/credentials/google_sheets.json
-GOOGLE_SHEET_NAME=Users
+GOOGLE_SHEET_NAME=Users</code></pre>
 
 ## Контейнеризация
 
